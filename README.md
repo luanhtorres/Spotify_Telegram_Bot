@@ -1,0 +1,10 @@
+Bot do Telegram integrado com Spotify para criação automatica de Playlist (entre outras funções)
+
+Usando Python, criei um bot integrado com o Telegram (que facilita a utilização de qualquer tipo de bot) para criar um sistema automatizado para criação de playlists no Spotify.
+Para tal, tive que aprender sobre a API do Telegram e do Spotify (utilizando as bibliotecas do telebot e spotipy) para poder integra-las. A ideia inicial era gerar automaticamente uma playlist com músicas aleatórias com alguns poucos comandos no Telegram, mas por fim acabei conseguindo adicionar a função de pesquisar o nome do artista para adicionar as músicas.
+Um grande obstáculo que encontrei durante o código foi que, por padrão da API, ao colocar o nome do artista desejado, adicionavam-se 10 músicas, e eu não queria essa função. Consegui então modificar isso sozinho (retratado no código) e então defini que não haveria um número pré-estabelecido, e sim o usuário que iria colocar a quantidade de músicas, pois acredito que dessa forma o bot seria mais util. 
+Por fim, acabei adicionando outras funções mais básicas para o bot, e pretendo transformar ele não apenas em um bot de playlist, mas sim em um bot com outras funções diversas.
+Para a utilização dele: É necessário ter uma conta no Telegram e encontrar o perfil que você criar (com a chave API do telegram), ou o que eu criei (Luan Bot), e se o código estiver rodando, já será possivel acessar as funções dele.
+Para criar o seu próprio bot você vai ter que ter uma conta com acesso Developer no Spotify e pedir autorização para usa-lo (dessa forma você vai receber as keys/tokens para setar no script), além de definir a url da playlist que vai ser adicionada as músicas.
+
+O objetivo desse código foi para estudar mais sobre as bibliotecas e a linguagem python, e particularmente foi um bom desafio para entender mais sobre. Lembrando sempre que talvez não seja a melhor forma de codar, porque ainda estou estudando e no inicio da minha jornada, e que o projeto foi feito tomando por base alguns videos no youtube e pesquisando por conta própria.
